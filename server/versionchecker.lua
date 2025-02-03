@@ -1,7 +1,7 @@
 
 local checkVersion = function(err, response, headers)
     local versionNumber = response:match("version%s*'([%d%.]+)'") 
-    local resourceName = "f-humainelabsraid ("..GetCurrentResourceName()..")" -- the resource name
+    local resourceName = "f-lootdeadnpcs ("..GetCurrentResourceName()..")" -- the resource name
     local curVersion = GetResourceMetadata(GetCurrentResourceName(), 'version') -- make sure the "version" file actually exists in your resource root!
     if tostring(curVersion) == tostring(versionNumber) then
         return print("^0[^2INFO^0] " .. resourceName .. " is up to date! (^2" .. curVersion .."^7)")
@@ -17,6 +17,6 @@ end
  
 AddEventHandler('onResourceStart', function(resource)
    if resource ~= GetCurrentResourceName() then return end
-   local path = "https://raw.githubusercontent.com/Friskky1/f-humainelabsraid/main/fxmanifest.lua" -- your git user/repo path
+   local path = "https://raw.githubusercontent.com/Friskky1/f-lootdeadnpcs/main/fxmanifest.lua" -- your git user/repo path
    PerformHttpRequest(path, checkVersion)
 end)

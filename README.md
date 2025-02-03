@@ -1,26 +1,33 @@
-# f-humainelabsraid
+# f-warehouseheist
 
-**How To Install:**
+This warehouse robbery is centered in the QBCore Framework.
 
-1. Drag and drop script into your files and make sure its ensured.
+This script has been tested using OneSync On and operates at a maximum speed of 0.01 ms.
 
-2. Add to your qb-core/shared/items.lua
+This script is completely open source and has no use of the FiveMs escrow system!
 
-`-- f-humainelabsraid
-	['special_documents'] = {['name'] = 'special_documents',['label'] = 'Special Documents', ['weight'] = 100, ['type'] = 'item', ['image'] = 'special_documents.png',     ['unique'] = true,  ['useable'] = false, ['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'I wonder where you can take these documents too'},
-	['transponder'] = {['name'] = 'transponder',['label'] = 'Transponder', ['weight'] = 100, ['type'] = 'item', ['image'] = 'transponder.png',     ['unique'] = true,  ['useable'] = false, ['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = ''},`
+[Video Preview](https://youtu.be/xurD9OySnfk)
 
-3. Add the image to your inventory/html/images
+[My Discord](https://discord.gg/xPcKNWZMpG)
 
-## Support
-If you encounter any issues or have questions about this script, feel free to open an issue on the GitHub repository. You can also reach out to me on Discord https://discord.gg/xPcKNWZMpG
+## Features:
+
+- Fully Configurable via the config.lua file! Models used, item output and variety, changing placements, guard spawns, etc.
+- Global Cooldown for the Robbery
+- Runs at 0.00ms even when in use
+- More to come!
 
 ## Dependencies:
-qb-core\
-ps-ui [https://github.com/Project-Sloth/ps-ui]
+[qb-core](https://github.com/qbcore-framework/qb-core),
 
-## Future Updates:
-None planned at the moment but some ideas will rise.
+[(qb, lj, ps) inventory](https://github.com/qbcore-framework/qb-inventory),
 
-## Code
-479 Lines of Code
+[qb-target](https://github.com/qbcore-framework/qb-target),
+
+### Addons
+
+[Mini Game](https://github.com/Byte-Labs-Studio/bl_ui),
+
+[MLO Requirement](https://www.gta5-mods.com/maps/mlo-warehouse-sp-fivem)
+
+### Its a quick and easy installation that is just a drag and drop and configure the config.
