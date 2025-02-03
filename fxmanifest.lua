@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'Friskky Developments'
 description 'Loot Dead NPCs Script'
-version '1.0.0'
+version '1.0.1'
 
 shared_scripts {
     'config.lua'
